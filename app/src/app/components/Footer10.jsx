@@ -11,6 +11,7 @@ import {
 import { FaXTwitter } from "react-icons/fa6";
 import logo from '../../logos/xProduct-BLK_3x.png'
 import Image from "next/image";
+import Link from "next/link";
 
 const useForm = () => {
   const [email, setEmail] = useState("");
@@ -50,29 +51,29 @@ export function Footer10() {
               <h2 className="mb-3 font-semibold md:mb-4">Quick Links</h2>
               <ul>
                 <li className="py-2 text-sm">
-                  <a href="#" className="flex items-center gap-3">
+                  <Link href='/about' className="flex items-center gap-3">
                     About Us
-                  </a>
+                  </Link>
                 </li>
                 <li className="py-2 text-sm">
-                  <a href="#" className="flex items-center gap-3">
+                  <Link href='/contact' className="flex items-center gap-3">
                     Contact Us
-                  </a>
+                  </Link>
                 </li>
                 <li className="py-2 text-sm">
-                  <a href="#" className="flex items-center gap-3">
+                  <Link href='/support' className="flex items-center gap-3">
                     Support Center
-                  </a>
+                  </Link>
                 </li>
                 <li className="py-2 text-sm">
-                  <a href="#" className="flex items-center gap-3">
+                  <Link href='/careers' className="flex items-center gap-3">
                     Careers
-                  </a>
+                  </Link>
                 </li>
                 <li className="py-2 text-sm">
-                  <a href="#" className="flex items-center gap-3">
+                  <Link href='/blog' className="flex items-center gap-3">
                     Blog
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

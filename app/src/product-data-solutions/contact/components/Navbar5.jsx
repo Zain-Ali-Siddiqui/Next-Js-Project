@@ -52,7 +52,7 @@ export function Navbar5() {
           <div className="flex min-h-16 items-center justify-between px-[5%] md:min-h-18 lg:min-h-full lg:px-0">
             <a href="#">
               <Image
-                width={100} 
+                width={100}
                 height={50}
                 src={logo}
                 alt="Logo image"
@@ -451,7 +451,9 @@ export function Navbar5() {
             Menu
           </Button>
           <Button title="Join" size="sm">
-            Join
+            <Link href='/signup'>
+              Join
+            </Link>
           </Button>
         </div>
       </div>
